@@ -22,7 +22,7 @@ export default function Greeting() {
           <div className="greeting-text-div">
             <div>
               <h1
-                className={isDark ? "dark-mode greeting-text-p" : "greeting-text"}
+                className={isDark ? "dark-mode greeting-text-p" : "greeting-text-p subTitle"}
               >
                 {" "}
                 {greeting.title}{" "}

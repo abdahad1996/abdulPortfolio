@@ -21,12 +21,12 @@ const illustration = {
 
 const greeting = {
   username: "Abdul Ahad ",
-  title: "Hello, folks! I'm Abdul Ahad Jamal",
-  subTitle: emoji(
-    "Seasoned iOS Developer passionate about crafting elegant and efficient solutions through a focus on architectural design principles."
-  ),
+  title: "Hello, folks! I'm Abdul Ahad Jamal I am an Ios Developer ! take a sneak peak of my journey from 2017 onwards when iphone x came out",
+  // subTitle: emoji(
+  //   "take a sneak peak of my journey when i started in  2017 when iphone x came out "
+  // ),
   resumeLink:
-    "https://drive.google.com/file/d/1Vg101CR66fObAndHkc3cEh4u1SmL_y6o/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1Ntl5kEyK2koRKVGIMgZgBjbcuZWfq9kj/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -171,7 +171,7 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: false, //Set it to true to show workExperiences Section
   experience: [
     // {
     //   role: "Software Engineer",
@@ -212,21 +212,21 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "AppStore",
+  subtitle: "professional apps that i worked on for clients but don't own",
   projects: [
-    // {
-    //   image: require("./assets/images/saayaHealthLogo.webp"),
-    //   projectName: "Saayahealth",
-    //   projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    //   footerLink: [
-    //     {
-    //       name: "Visit Website",
-    //       url: "http://saayahealth.com/"
-    //     }
-    //     //  you can add extra buttons here.
-    //   ]
-    // },
+    {
+      image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "AnyRoad",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Learn More",
+          url: "https://apps.apple.com/de/app/anyroad-front-desk/id1154928619?l=en-GB"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
     // {
     //   image: require("./assets/images/nextuLogo.webp"),
     //   projectName: "Nextu",
@@ -311,7 +311,7 @@ const achievementSection = {
           url: "https://www.udemy.com/certificate/UC-8LDDP6SF/"
         },
         {
-          name: "A Complete React Native Course - Redux - Context API ",
+          name: "A Complete RN Course - Redux - Context API ",
           url: "https://www.udemy.com/certificate/UC-2c7a481d-0b49-40df-b52d-04ac74367a19/?utm_campaign=email&utm_source=sendgrid.com&utm_medium=email"
         }
       ]
