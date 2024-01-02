@@ -21,24 +21,24 @@ const illustration = {
 
 const greeting = {
   username: "Abdul Ahad ",
-  title: "Hello, folks! I'm Abdul Ahad Jamal I am an Ios Developer ! take a sneak peak of my journey from 2017 onwards when iphone x came out",
+  title: "Hello, folks! I'm Abdul Ahad Jamal I am an iOS Developer ! I was hooked into the Apple ecosystem ever since the innovative iphone x came out and never looked back",
   // subTitle: emoji(
   //   "take a sneak peak of my journey when i started in  2017 when iphone x came out "
   // ),
   resumeLink:
-    "https://drive.google.com/file/d/1Ntl5kEyK2koRKVGIMgZgBjbcuZWfq9kj/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1RNyAEkLyobSQxQZsIAtckt4hUCShhWoP/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/frodo10messi",
+  github: "https://github.com/abdahad1996",
   linkedin: "https://www.linkedin.com/in/abdul-a-1b133814a/",
   // gmail: "saadpasta70@gmail.com",
   // gitlab: "https://gitlab.com/saadpasta",
   // facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://frodomessi10.medium.com/",
+  medium: "https://medium.com/@abdulahd1996",
   // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
@@ -129,8 +129,8 @@ const educationInfo = {
       schoolName: "Ned University",
       logo: require("./assets/images/NEDUET_logo.png"),
       subHeader: "Bachelor's degree, Software engineering",
-      duration: "December 2015 - Auguest 2019"
-      // desc: "Participated in the research of XXX and published 3 papers.",
+      duration: "December 2015 - Auguest 2019",
+      desc: "Concentrated on Software development life cycle from requirement gathering to depoloyment.",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
@@ -239,7 +239,7 @@ const bigProjects = {
     //   ]
     // }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
